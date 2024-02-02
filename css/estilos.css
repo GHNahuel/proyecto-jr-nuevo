@@ -1,0 +1,52 @@
+.container-fluid{background-color: black;
+}
+
+.carousel-indicators img{
+    width:100% ;
+    height: auto;
+}
+
+
+.nav-item{
+    text-align: left;
+}
+
+.bi{
+    font-size: 50px;
+     color: rgb(255, 255, 255);
+     
+    
+}
+
+
+.col{
+    color: rgb(255, 255, 255);
+}
+
+
+.embed-responsive-item{
+    width: 539px;
+    height: 300px;
+}
+
+h2{
+    color: beige; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+div.foto1{
+    padding-left: 15%;
+    
+
+} 
+
+div.foto2{
+    padding-right:15% ;
+    height: 50%;
+    width: 50%;
+}
+    
+    
+
+
+
+

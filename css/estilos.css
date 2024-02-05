@@ -1,4 +1,4 @@
-.container-fluid{background-color: black;
+.container-fluid{background-color: rgb(0, 0, 0);
 }
 
 .carousel-indicators img{
@@ -18,19 +18,39 @@
     
 }
 
+.varita{
+   color:rgb(219, 165, 15);
+   font-size: 4em;
+}
+
+.verificado{
+    color: rgb(219, 165, 15);
+    font-size: 4em;
+}
+
+.casita{
+    color: rgb(219, 165, 15);
+    font-size: 4em;
+}
+
+.fueguito{
+    color: rgb(219, 165, 15);
+    font-size: 4em;
+}
 
 .col{
     color: rgb(255, 255, 255);
 }
 
-
-.embed-responsive-item{
-    width: 539px;
-    height: 300px;
+.containerCarrussel{
+    padding-top: 5%;
 }
 
+
+
 h2{
-    color: beige; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(231, 166, 105); font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 150px; font-size: 5em; text-align: center;
 }
 
 div.foto1{
@@ -44,9 +64,150 @@ div.foto2{
     height: 50%;
     width: 50%;
 }
+    .textodelBody{
+        font-size: 25px;
+    }
     
+
+   
+    .opcionesMenu{
+     font-size: 0px; 
+     
+    }
+/*Coloresdelmenú*/
+    .coloresMenu{
+        color: orange;
+        font-size: 25px; 
+        
+    }
     
 
+    .textodelBody{
+        padding-top: 3%;
+    }
 
 
 
+body{
+    background-color: black; font-size: 15px;
+    font-family: font-family: 'Roboto', sans-serif;
+    
+}
+
+.textoyContenido{
+    padding-top: 2% ;
+    padding-bottom: 1%;
+    background-color: black;
+}
+
+.card-text{
+    color: white;
+    padding-bottom: 5%;
+}
+.textoTarjeta{
+    color: black;
+}
+
+
+/* Cambiar el tamaño de la letra de todos los elementos dentro del formulario */
+.form-control,
+label,
+.form-check-label,
+.btn {
+    font-size: 30px; 
+    color: white;
+}
+
+
+/*contenedor del formulario */
+.container-sm {
+    background-color: #000000; 
+    padding: 20px; 
+    border-radius: 10px; 
+}
+
+.btn-primary{
+    background-color: black;
+    border-radius: 30px;
+    border-color: orange;
+}
+
+.btn-secondary{
+    background-color: black;
+    border-radius: 30px;
+    border-color: orange;}
+.cuadrodelMensaje{
+    padding-bottom: 3%;
+}
+.bi-whatsapp{
+    font-size: 30px;
+}
+
+/* Estilo para el footer */
+.container-footer {
+    background-color: #777;
+    padding: 20px 0; 
+    color: rgb(87, 85, 85); 
+}
+
+/* Estilo para el texto del footer */
+.texto-footer {
+    margin-bottom: 0px;
+    font-size: 35px; 
+}
+
+/* Estilo para las redes sociales */
+.list-inline {
+    margin-top: 0px; 
+}
+
+/* Estilo para la clase siguenos */
+.siguenos{
+    font-size: 25px; 
+}
+
+/* Estilos para dispositivos grandes (desktops) */
+@media (min-width: 992px) {
+    body {
+        font-size: 18px; /* Ajusta el tamaño de fuente para pantallas grandes */
+    }
+
+}
+
+/* Estilos para dispositivos medianos (tablets) */
+@media (max-width: 991px) {
+    body {
+        font-size: 16px; 
+    }
+
+    
+}
+
+/* Estilos para dispositivos pequeños (móviles) */
+@media (max-width: 767px) {
+    body {
+        font-size: 14px; 
+    }
+
+    
+
+    /* Ajustes específicos para el menú en dispositivos pequeños */
+    #menu {
+        padding: 10px;
+    }
+
+    .navbar-brand img {
+        height: 100px; tamaño del logo en el menú para móviles */
+    }
+}
+@media (max-width: 767px) {
+    #tarjetaprofesionales h2 {
+        text-align: center;
+    }
+}
+
+.profesional1,
+    .profesional2,
+    .profesional3 {
+        padding-left: 50px; 
+    }

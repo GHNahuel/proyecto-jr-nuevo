@@ -1,179 +1,295 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-     crossorigin="anonymous">
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-     <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+        
     <title>JR BARBER</title>
 </head>
-<body class="fondo" >
-    
 
-  <!--IconoyMenu-->
-  <nav class="navbar bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="img/jrlogo3.png" alt="Bootstrap"
-             width="auto" height="120">
-           </a>
-             <ul class="nav nav-underline">
-              
-              <li class="nav-item">
-                <a class="nav-link" href="#">Citas</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Peinados</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Quienes Somos</a>
-              </li>
-            </ul>
-         
-        </div>
-      </nav>
+<body class="fondo">
 
-      <br> <br> <br>
-    
+    <!-- IconoyMenu -->
+    <section id="menu">
+        <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="img/jrlogo3.png" alt="Bootstrap" width="auto" height="150">
+                </a>
+                <ul class="nav opcionesMenu nav-underline">
 
-
-      <!--Carrussel-->
-
-
-      <div class="container-fluid">
-      <div id="carouselExampleCaptions" class="carousel slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="img/peinado1.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
+                    <li class="nav-item coloresMenu">
+                        <a class="nav-link coloresMenu" href="#">Citas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link coloresMenu" href="#">Peinados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link coloresMenu" href="#">Quienes Somos</a>
+                    </li>
+                </ul>
             </div>
-          </div>
-          <div class="carousel-item">
-            <img src="img/peinado2.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
+        </nav>
+    </section>
+
+    <!-- Carrusel -->
+    <section id="carousel">
+        <div class="container-sm containerCarrussel">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/peinado1.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/peinado2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/peinado3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-          </div>
-          <div class="carousel-item">
-            <img src="img/peinado3.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
-            </div>
-          </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </div>
+    </section>
 
     <br> <br> <br> <br>
 
-    
+    <!-- Contenido -->
+    <section id="contenido">
+        <div class="container-sm">
+            <div class="row">
+                <!-- Columna 1 -->
+                <div class="col-sm-4">
+                    <img src="img/corte1.jpg" alt="Imagen 1" class="img-fluid">
+                </div>
 
-   
-   
-    <!--ColumndasContenido-->
+                <!-- Columna 2 -->
+                <div class="col-sm-4">
+                    <img src="img/corte2.jpg" alt="Imagen 2" class="img-fluid">
+                </div>
 
-   
-    <div class="container-fluid text-center">
-
-      
-
-        <div class="col">
-
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="img/video1.mp4" allowfullscreen></iframe>
-            <iframe class="embed-responsive-item" src="img/video2.mp4" allowfullscreen></iframe>
-            <iframe class="embed-responsive-item" src="img/video.mp4" allowfullscreen></iframe>
-          </div>
-  
-    
-    
-    </div> <br> <br> <br>
-
-
-    
-    <!--IconosyTexto-->
-
-
-
-    <div class="container-fluid text-center">
-      <div class="row">
-        <div class="col">
-          <i class="bi bi-magic"></i> <br>
-          Enfocados en tu individualidad, creamos cortes y peinados que reflejen tu auténtico estilo. Desde cambios audaces hasta ajustes sutiles, nuestro equipo está aquí para hacer que tu cabello destaque.</div>
-        <div class="col">
-          <i class="bi bi-shop"></i> <br>
-          Experimenta cortes vanguardistas y estilos personalizados en nuestro salón. Nuestros estilistas están listos para realzar tu imagen con un toque único. ¡Descubre la esencia del estilo en cada visita!</div>
-        <div class="col">
-          <i class="bi bi-patch-check"></i> <br>
-          Más que estética, nos preocupamos por la salud de tu cabello. Disfruta de tratamientos capilares rejuvenecedores que nutren y fortalecen tu melena. Brindamos cuidado completo para un cabello radiante.</div>
-        <div class="col">
-          <i class="bi bi-fire"></i> <br>
-          Descubre la última moda en cortes de cabello y estilos únicos en nuestro exclusivo salón de belleza. Nuestro equipo de estilistas profesionales está comprometido con brindarte un servicio personalizado que destaque tu individualidad.</div>
-      </div> <br> <br>
-
-
-      
-      
-      
-      
-      <!--TarjetadeProfesionales-->
-      
-      
-      
-      
-      
-      <h2>Profesionales al mando:</h2>
-
-      <div class="container text-center">
-        <div class="row align">
-          <div class="col">
-            <div class="card" style="width: auto;">
-              <img src="img/barbero.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
+                <!-- Columna 3 -->
+                <div class="col-sm-4">
+                    <img src="img/corte3.jpg" alt="Imagen 3" class="img-fluid">
+                </div>
             </div>
-          </div>
-          <div class="col">
-            2 
-          </div>
-      
-      
-      
-      
-    
-    
-    
+        </div>
+    </section> <br> <br> <br>
+
+    <!-- IconosyTexto -->
+    <div class="container-sm text-center textodelBody">
+        <div class="row">
+            <div class="col">
+                <i class="bi bi-shop casita"></i> <br>
+                Experimenta cortes vanguardistas y estilos personalizados en nuestro salón. Nuestros estilistas están
+                listos para realzar tu imagen con un toque único. ¡Descubre la esencia del estilo en cada visita!
+            </div>
+            <div class="col">
+                <i class="bi bi-magic varita"></i> <br>
+                Enfocados en tu individualidad, creamos cortes y peinados que reflejen tu auténtico estilo. Desde
+                cambios audaces hasta ajustes sutiles, nuestro equipo está aquí para hacer que tu cabello destaque.
+            </div>
+            <div class="col">
+                <i class="bi bi-patch-check verificado"></i> <br>
+                Más que estética, nos preocupamos por la salud de tu cabello. Disfruta de tratamientos capilares
+                rejuvenecedores que nutren y fortalecen tu melena. Brindamos cuidado completo para un cabello radiante.
+            </div>
+            <div class="col">
+                <i class="bi bi-fire fueguito"></i> <br>
+                Descubre la última moda en cortes de cabello y estilos únicos en nuestro exclusivo salón de belleza.
+                Nuestro equipo de estilistas profesionales está comprometido con brindarte un servicio personalizado
+                que destaque tu individualidad.
+            </div>
+        </div> <br> <br>
+
+        <!-- TarjetadeProfesionales -->
+        <section id="tarjetaprofesionales">
+            <div class="container text-center">
+                <div class="row align-items-center">
+                    <div class="col">
+                    </div>
+                    <div class="col-sm-12">
+                        <h2>Profesionales al mando</h2>
+                    </div>
+                    <div class="col">
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-xl text-center ">
+                <div class="row align-items-center">
+                    <div class="col mx-auto profesional1">
+                        <div class="card" style="width: 20rem;">
+                            <img src="img/barbero.jpg" class="card-img-top" alt="Marc Strada">
+                            <div class="card-body">
+                                <h5 class="card-title">Marc Strada</h5>
+                                <p class="card-text textoTarjeta">¿Quieres contactar con Marc para un servicio
+                                    personalizado?</p>
+                                <a href="https://api.whatsapp.com/send?phone=TUNUMERODETELEFONO" class="btn btn-primary"
+                                    target="_blank"><i class="bi bi-whatsapp"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mx-auto profesional2">
+                        <div class="card" style="width: 19rem;">
+                            <img src="img/barbero3.jpg" class="card-img-top" alt="Santi Morado">
+                            <div class="card-body">
+                                <h5 class="card-title">Santi Morado</h5>
+                                <p class="card-text textoTarjeta">¿Quieres contactar con Santi para un servicio
+                                    personalizado?</p>
+                                <a href="https://api.whatsapp.com/send?phone=TUNUMERODETELEFONO" class="btn btn-primary"
+                                    target="_blank"><i class="bi bi-whatsapp"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mx-auto profesional3">
+                        <div class="card" style="width: 19rem;">
+                            <img src="img/barbero2.jpg" class="card-img-top" alt="Germán Cano">
+                            <div class="card-body">
+                                <h5 class="card-title">Germán Cano</h5>
+                                <p class="card-text textoTarjeta">¿Quieres contactar con Germán para un servicio
+                                    personalizado?</p>
+                                <a href="https://api.whatsapp.com/send?phone=TUNUMERODETELEFONO" class="btn btn-primary"
+                                    target="_blank"><i class="bi bi-whatsapp"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> <br> <br>
+
+        <!-- TextoyContenido -->
+        <div class="card container-sm mb-3 textoyContenido">
+            <p class="card-text">Nuestro negocio se distingue por ofrecer a nuestros barberos herramientas de la más
+                alta calidad. Cada tijera, maquinilla y producto que utilizamos está cuidadosamente seleccionado para
+                garantizar un rendimiento excepcional. En manos de nuestros expertos barberos, estas herramientas de
+                calidad elevan la experiencia de corte de cabello a niveles superiores, proporcionando resultados
+                precisos y un servicio que destaca por su excelencia.</p>
+            <img src="img/maquina.jpg" class="card-img-bottom" alt="...">
+            <div class="card-body">
+            </div>
+        </div> <br>
+        <div class="card container-sm textoyContenido">
+            <div class="card-body">
+                <p class="card-text">En el corazón de nuestro negocio está el compromiso con la excelencia y la
+                    satisfacción del cliente. Nos enorgullece brindar a nuestros barberos las mejores herramientas
+                    disponibles en el mercado. Desde tijeras afiladas hasta maquinillas de última generación, cada
+                    elemento de nuestro kit está diseñado para ofrecer un corte de cabello impecable. La calidad de
+                    nuestras herramientas no solo eleva el estándar de nuestro servicio, sino que también garantiza la
+                    plena confianza de nuestros clientes en cada visita.</p>
+            </div>
+            <img src="img/tijeras.jpg" class="card-img-bottom" alt="...">
+        </div>
     </div>
-      
 
+    <!-- Formulario -->
+    <div class="card container-sm">
+        <form>
+            <!-- Nombre -->
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" class="form-control" id="nombre" name="nombre" required>
+            </div>
 
+            <!-- Teléfono -->
+            <div class="form-group">
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" class="form-control" id="telefono" name="telefono" minlength="9" required>
+            </div>
 
+            <!-- Email -->
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
 
+            <!-- Carnet de Conducir -->
+            <div class="form-group">
+                <label>¿Tiene carnet de conducir?</label>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" id="si" name="carnet" value="si">
+                    <label class="form-check-label" for="si">Sí</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" id="no" name="carnet" value="no">
+                    <label class="form-check-label" for="no">No</label>
+                </div>
+            </div>
+            <hr>
 
+            <!-- Aviso Legal -->
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="avisoLegal" name="avisoLegal" required>
+                <label class="form-check-label" for="avisoLegal">Acepto el Aviso Legal</label>
+            </div>
 
+            <!-- Mensaje -->
+            <div class="form-group cuadrodelMensaje">
+                <label for="mensaje">Mensaje (máx. 300 caracteres):</label>
+                <textarea class="form-control" id="mensaje" name="mensaje" rows="3" maxlength="300"></textarea>
+            </div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+            <!-- Botones -->
+            <div class="form-group">
+                <button type="reset" class="btn btn-secondary">Limpiar</button>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+        </form>
+    </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="container-fluid text-center container-footer">
+        <div class="row">
+            <div class="col texto-footer">
+                <p>&copy; 2024 JR BARBER. Todos los derechos reservados.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-md-center siguenos">
+                <p>Síguenos en las redes sociales para mantenerte actualizado.</p>
+                <p>Fecha: 05/02/2024</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="#" class="text-white"><i class="bi bi-facebook"></i></a></li>
+                    <li class="list-inline-item"><a href="#" class="text-white"><i
+                                class="bi bi-instagram"></i></a></li>
+                    <li class="list-inline-item"><a href="#" class="text-white"><i class="bi bi-twitter"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

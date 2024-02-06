@@ -153,7 +153,7 @@ label,
 /* Estilo para el texto del footer */
 .texto-footer {
     margin-bottom: 0px;
-    font-size: 35px; 
+    font-size: 25px; 
 }
 
 /* Estilo para las redes sociales */
@@ -166,48 +166,42 @@ label,
     font-size: 25px; 
 }
 
-/* Estilos para dispositivos grandes (desktops) */
-@media (min-width: 992px) {
-    body {
-        font-size: 18px; /* Ajusta el tamaño de fuente para pantallas grandes */
-    }
+/* Estilos generales */
 
-}
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 768px) {
+    /* Otros estilos específicos para dispositivos móviles */
 
-/* Estilos para dispositivos medianos (tablets) */
-@media (max-width: 991px) {
-    body {
-        font-size: 16px; 
-    }
-
-    
-}
-
-/* Estilos para dispositivos pequeños (móviles) */
-@media (max-width: 767px) {
-    body {
-        font-size: 14px; 
-    }
-
-    
-
-    /* Ajustes específicos para el menú en dispositivos pequeños */
-    #menu {
-        padding: 10px;
-    }
-
-    .navbar-brand img {
-        height: 100px; tamaño del logo en el menú para móviles */
-    }
-}
-@media (max-width: 767px) {
     #tarjetaprofesionales h2 {
+        font-size: 3rem; 
+        margin-bottom: 15px;
+        margin-right: 30px; 
+        
+    }
+
+    @media only screen and (max-width: 768px) {
+        #tarjetaprofesionales .row {
+            flex-direction: column;
+            align-items: center;
+            margin-left: 45px;
+        }
+    
+        #tarjetaprofesionales .col {
+            width: 100%; /* Opcional: para que las columnas ocupen todo el ancho disponible */
+            margin-bottom: 20px; 
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #contenido .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #contenido .col-sm-4 {
+        width: 80%; /* Opcional: para que las columnas ocupen todo el ancho disponible */
+        margin-bottom: 20px; /* Ajusta el margen inferior según tus necesidades */
         text-align: center;
     }
 }
-
-.profesional1,
-    .profesional2,
-    .profesional3 {
-        padding-left: 50px; 
-    }

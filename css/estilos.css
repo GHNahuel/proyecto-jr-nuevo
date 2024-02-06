@@ -53,20 +53,6 @@ h2{
     margin-bottom: 150px; font-size: 5em; text-align: center;
 }
 
-div.foto1{
-    padding-left: 15%;
-    
-
-} 
-
-div.foto2{
-    padding-right:15% ;
-    height: 50%;
-    width: 50%;
-}
-    .textodelBody{
-        font-size: 25px;
-    }
     
 
    
@@ -89,7 +75,7 @@ div.foto2{
 
 
 body{
-    background-color: black; font-size: 10px;
+    background-color: black; font-size: 25px;
     font-family: font-family: 'Roboto', sans-serif;
     
 }
@@ -114,8 +100,9 @@ body{
 label,
 .form-check-label,
 .btn {
-    font-size: 30px; 
-    color: white;
+    font-size: 25px; 
+    color: rgb(2, 0, 0);
+
 }
 
 
@@ -137,7 +124,7 @@ label,
     border-radius: 30px;
     border-color: orange;}
 .cuadrodelMensaje{
-    padding-bottom: 3%;
+    padding-bottom: 2%;
 }
 .bi-whatsapp{
     font-size: 30px;

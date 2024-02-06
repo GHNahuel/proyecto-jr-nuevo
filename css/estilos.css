@@ -89,7 +89,7 @@ div.foto2{
 
 
 body{
-    background-color: black; font-size: 15px;
+    background-color: black; font-size: 10px;
     font-family: font-family: 'Roboto', sans-serif;
     
 }
@@ -187,7 +187,7 @@ label,
         }
     
         #tarjetaprofesionales .col {
-            width: 100%; /* Opcional: para que las columnas ocupen todo el ancho disponible */
+            width: 100%; 
             margin-bottom: 20px; 
         }
     }
@@ -203,5 +203,17 @@ label,
         width: 80%; /* Opcional: para que las columnas ocupen todo el ancho disponible */
         margin-bottom: 20px; /* Ajusta el margen inferior según tus necesidades */
         text-align: center;
+    }
+}
+@media only screen and (max-width: 768px) {
+    #menu .navbar-brand {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #menu .navbar-brand img {
+        width: auto; /* Ajusta el tamaño de la imagen según sea necesario */
+        height: 50px; /* Ajusta la altura de la imagen según sea necesario */
     }
 }
